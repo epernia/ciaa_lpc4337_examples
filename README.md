@@ -20,7 +20,7 @@
 
 Included examples are:
 
-### ARM Cortex M4's Asembler
+### ARM Cortex M4 Asembler
  - asm_lpc_open: assembler with LPC Open library
  - asm_sapi: assembler with sAPI library
  
@@ -62,91 +62,84 @@ Included examples are:
             - **02_http_server**: embedded web server to see sensor values.
             - **03_thingspeak**: send data to thingspeak dashboards.
     - operating_systems
+        - coperative (see M.J. Pont's book at https://www.safetty.net/publications/pttes )
+            - **scheduler_01_seosv: first cooperative scheduler
+            - **scheduler_02_seos_background_foreground**: second cooperative scheduler
+            - **seos_pont_2014_01_first_app**: third cooperative scheduler
+        - free_rtos
+            - dynamic_mem
+                - **freeRTOS_01_blinky**
+                - **freeRTOS_03_ChanFatFS_SPI_SdCard_ADC_log**: ADC logging in a SD/MicroSD Card (SPI connected) by using a FAT File System (ChanFS), freeRTOS and sAPI.
+            - static_mem
+                - **freeRTOS_01_blinky**
     - statecharts
+        - **statechart_bare_metal**
  - lpc_open
     - bare_metal
+        - **blinky**
+        - **blinky_input**
+        - **blinky_ram**
+        - **blinky_rit**
+        - **boot**
+        - **i2c**
+        - **lpc_open_basic_example**
+        - **mpu**
+        - **pwm**
     - operating_systems
+        - **freertos_blinky**
     - statecharts
- - newlib_printf_scanf
- - without_libs
+        - **statechart**
+ - **newlib_printf_scanf**
+ - **without_libs**
  
 ### C++ language
  - **cpp_sapi_basic_example**: a C++ basic example with sAPI library.
+
+
+### Other examples
+
+#### Deprecated examples
+ - **stdio_01_printf_sprintf**: printf() and other similar standard C libray functions.
  
-
-
-  
- 
-  - Printf
-    - stdio_01_printf_sprintf: printf() and other similar standard C libray functions.
-
-    
-
-
-**Embedded Operating Systems with sAPI library examples**
-
- - Cooperative O.S. (see M.J. Pont's book at https://www.safetty.net/publications/pttes )
-    - scheduler_01_seos: Cooperative O.S. introduction.
-    - scheduler_02_seos_background_foreground: Cooperative O.S., foreground-background.
-    - seos_Pont2014_01: SEOS Cooperative O.S. from M.J. Pont (2014).
-    - seos_pont_02_microwave: SEOS Cooperative O.S. from M.J. Pont (2014), microwave example.
- - FreeOSEK
-    - freeOSEK_01_blinky: Blinky led with freeOSEK RTOS.
- - FreeRTOS
-    - freeRTOS_01_blinky: Blinky led with freeRTOS RTOS and sAPI.
-    - freeRTOS_02_Queue: Queue management with freeRTOS and sAPI.
-    - freeRTOS_03_ChanFatFS_SPI_SdCard_ADC_log: ADC logging in a SD/MicroSD Card (SPI connected) by using a FAT File System (ChanFS), freeRTOS and sAPI.
-    - freeRTOS_book: Richard Barry's book examples with FreeRTOS and sAPI:
-       - EXAMPLE001: Creating tasks
-       - EXAMPLE002: Using the task parameter
-       - EXAMPLE003: Experimenting with priorities
-       - EXAMPLE004: Using the Blocked state to create delay
-       - EXAMPLE005: Converting the example tasks to use vTaskDelayUntil()
-       - EXAMPLE006: Combining blocking and non-blocking tasks
-       - EXAMPLE007: Defining an idle task hook function
-       - EXAMPLE008: Changing task priorities
-       - EXAMPLE009: Deleting tasks
-       - EXAMPLE010: Blocking when receiving from a queue
-       - EXAMPLE011: Blocking when sending to a queue or sending structures on a queue
-       - EXAMPLE012: Using a queue set
-       - EXAMPLE013: Creating one-shot and auto-reload timers
-       - EXAMPLE014: Using the callback function parameter and the software timer ID
-       - EXAMPLE015: Resetting a software timer
-       - EXAMPLE016: Using a binary semaphore to synchronize a task with an interrupt
-       - EXAMPLE017: Using a counting semaphore to synchronize a task with an interrupt
-       - EXAMPLE018: Centralized deferred interrupt processing
-       - EXAMPLE019: Sending and receiving on a queue from within an interrupt
-       - EXAMPLE020: Re-writing vPrintString() to use a semaphore
-       - EXAMPLE021: Re-writing vPrintString() to use a gatekeeper task
-       - EXAMPLE022: Experimenting with event groups
-       - EXAMPLE023: Synchronizing tasks
-       - EXAMPLE024: Using a task notification in place of a semaphore, method 1
-       - EXAMPLE025: Using a task notification in place of a semaphore, method 2
-
-**Statecharts with sAPI library examples**
-       
-**LPC Open examples**
-
+#### Not working yet examples
+ - adc_fir_dac 
+ - asm_conv
+ - **seos_pont_02_microwave**: SEOS Cooperative O.S. from M.J. Pont (2014), microwave example.
+ - **freeRTOS_02_Queue**: Queue management with freeRTOS and sAPI. 
+ - **freeOSEK_01_blinky**: Blinky led with freeOSEK RTOS.
+ - freeRTOS_book: Richard Barry's book examples with FreeRTOS and sAPI:
+     - **EXAMPLE001**: Creating tasks
+     - **EXAMPLE002**: Using the task parameter
+     - **EXAMPLE003**: Experimenting with priorities
+     - **EXAMPLE004**: Using the Blocked state to create delay
+     - **EXAMPLE005**: Converting the example tasks to use vTaskDelayUntil()
+     - **EXAMPLE006**: Combining blocking and non-blocking tasks
+     - **EXAMPLE007**: Defining an idle task hook function
+     - **EXAMPLE008**: Changing task priorities
+     - **EXAMPLE009**: Deleting tasks
+     - **EXAMPLE010**: Blocking when receiving from a queue
+     - **EXAMPLE011**: Blocking when sending to a queue or sending structures on a queue
+     - **EXAMPLE012**: Using a queue set
+     - **EXAMPLE013**: Creating one-shot and auto-reload timers
+     - **EXAMPLE014**: Using the callback function parameter and the software timer ID
+     - **EXAMPLE015**: Resetting a software timer
+     - **EXAMPLE016**: Using a binary semaphore to synchronize a task with an interrupt
+     - **EXAMPLE017**: Using a counting semaphore to synchronize a task with an interrupt
+     - **EXAMPLE018**: Centralized deferred interrupt processing
+     - **EXAMPLE019**: Sending and receiving on a queue from within an interrupt
+     - **EXAMPLE020**: Re-writing vPrintString() to use a semaphore
+     - **EXAMPLE021**: Re-writing vPrintString() to use a gatekeeper task
+     - **EXAMPLE022**: Experimenting with event groups
+     - **EXAMPLE023**: Synchronizing tasks
+     - **EXAMPLE024**: Using a task notification in place of a semaphore, method 1
+     - **EXAMPLE025**: Using a task notification in place of a semaphore, method 2
  - LPC4337 LPC Open:
-     - adc_fir_dac 
-     - asm
-     - blinky
-     - blinky_ram 	
-     - blinky_rit
-     - blinky_input
-     - boot: LPCBootloader example
-     - mpu
+     - blinky_osek
+     - multicore
+     - sd_spi 
      - start_m0 	
+     - tcpecho
      - trilat
-     - i2c
-     - pwm
-     - sd_spi
      - usb_cdc
      - usb_msc_host
      - usb_rom_cdc
-     - statechart
-     - tcpecho
- - LPC4337 LPC Open and RTOS:
-     - freertos_blinky
-     - blinky_osek
-     - multicore 	

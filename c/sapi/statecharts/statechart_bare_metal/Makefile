@@ -1,5 +1,5 @@
 # -------- Project Name ------------------------------------------------------
-PROJECT_NAME=statecharts_bare_metal
+PROJECT_NAME=statechart_bare_metal
 
 # -------- Compile options ---------------------------------------------------
 VERBOSE=n
