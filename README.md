@@ -20,11 +20,11 @@
 
 Included examples are:
 
-### asm
+### ARM Cortex M4's Asembler
  - asm_lpc_open: assembler with LPC Open library
  - asm_sapi: assembler with sAPI library
  
-### c
+### C language
  - sapi
     - bare_metal
         - **adc_dac_01**: ADC and DAC example.
@@ -70,7 +70,7 @@ Included examples are:
  - newlib_printf_scanf
  - without_libs
  
-### cpp
+### C++ language
  - **cpp_sapi_basic_example**: a C++ basic example with sAPI library.
  
 
