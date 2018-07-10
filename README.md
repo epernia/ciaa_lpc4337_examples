@@ -95,13 +95,15 @@ Included examples are:
 ### C++ language
  - **cpp_sapi_basic_example**: a C++ basic example with sAPI library.
 
+ 
+ 
 
-### Other examples
+## Other examples
 
-#### Deprecated examples
+### Deprecated examples
  - **stdio_01_printf_sprintf**: printf() and other similar standard C libray functions.
  
-#### Not working yet examples
+### Not working yet examples
  - **adc_fir_dac **
  - **asm_conv**
  - **seos_pont_02_microwave**: SEOS Cooperative O.S. from M.J. Pont (2014), microwave example.
