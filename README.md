@@ -99,9 +99,6 @@ Included examples are:
  
 
 ## Other examples
-
-### Deprecated examples
- - **stdio_01_printf_sprintf**: printf() and other similar standard C libray functions.
  
 ### Not working yet examples
  - **adc_fir_dac **
@@ -145,3 +142,6 @@ Included examples are:
      - **usb_cdc**
      - **usb_msc_host**
      - **usb_rom_cdc**
+
+### Deprecated examples
+ - **stdio_01_printf_sprintf**: printf() and other similar standard C libray functions.
