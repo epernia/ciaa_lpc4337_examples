@@ -11,7 +11,7 @@
 
 ## Usage
 - Make sure you have an ```arm-none-eabi-*``` toolchain configured in your ```PATH```. If you don't have it, download [GCC ARM Embedded](https://developer.arm.com/open-source/gnu-toolchain/gnu-rm).
-- Enter to example folder that you want to use:
+- Enter to example folder that you want to use and:
     - Compile with ```make```.
     - Clean with ```make clean```. Clean for all targets with ```make clean_all```.
     - Download to target via OpenOCD with ```make download```.
