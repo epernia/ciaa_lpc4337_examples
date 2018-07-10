@@ -1,6 +1,6 @@
 # CIAA PROJECT LPC4337 EXAMPLES
 
-[CIAA project repository](../../../ciaa_project).
+Examples working with [CIAA project repository](../../../ciaa_project).
 
 ## Supported boards
 - CIAA-NXP (LPC4337).
