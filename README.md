@@ -21,8 +21,8 @@
 Included examples are:
 
 ### ARM Cortex M4 Asembler
- - asm_lpc_open: assembler with LPC Open library
- - asm_sapi: assembler with sAPI library
+ - **asm_lpc_open**: assembler with LPC Open library
+ - **asm_sapi**: assembler with sAPI library
  
 ### C language
  - sapi
@@ -63,7 +63,7 @@ Included examples are:
             - **03_thingspeak**: send data to thingspeak dashboards.
     - operating_systems
         - coperative (see M.J. Pont's book at https://www.safetty.net/publications/pttes )
-            - **scheduler_01_seosv: first cooperative scheduler
+            - **scheduler_01_seos**: first cooperative scheduler
             - **scheduler_02_seos_background_foreground**: second cooperative scheduler
             - **seos_pont_2014_01_first_app**: third cooperative scheduler
         - free_rtos
@@ -102,8 +102,8 @@ Included examples are:
  - **stdio_01_printf_sprintf**: printf() and other similar standard C libray functions.
  
 #### Not working yet examples
- - adc_fir_dac 
- - asm_conv
+ - **adc_fir_dac **
+ - **asm_conv**
  - **seos_pont_02_microwave**: SEOS Cooperative O.S. from M.J. Pont (2014), microwave example.
  - **freeRTOS_02_Queue**: Queue management with freeRTOS and sAPI. 
  - **freeOSEK_01_blinky**: Blinky led with freeOSEK RTOS.
@@ -134,12 +134,12 @@ Included examples are:
      - **EXAMPLE024**: Using a task notification in place of a semaphore, method 1
      - **EXAMPLE025**: Using a task notification in place of a semaphore, method 2
  - LPC4337 LPC Open:
-     - blinky_osek
-     - multicore
-     - sd_spi 
-     - start_m0 	
-     - tcpecho
-     - trilat
-     - usb_cdc
-     - usb_msc_host
-     - usb_rom_cdc
+     - **blinky_osek**
+     - **multicore**
+     - **sd_spi**
+     - **start_m0**
+     - **tcpecho**
+     - **trilat**
+     - **usb_cdc**
+     - **usb_msc_host**
+     - **usb_rom_cdc**
