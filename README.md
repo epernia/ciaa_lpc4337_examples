@@ -25,7 +25,7 @@ Included examples are:
  - ```asm_sapi```: assembler with sAPI library
  
 ### C language
- - sAPI library
+ - **sAPI library**
     - bare_metal
         - ```adc_dac_01```: ADC and DAC example.
         - bluetooth
@@ -74,7 +74,7 @@ Included examples are:
                 - ```freeRTOS_01_blinky```
     - statecharts
         - ```statechart_bare_metal```
- - LPC Open library
+ - **LPC Open library**
     - bare_metal
         - ```blinky```
         - ```blinky_input```
@@ -107,31 +107,32 @@ Included examples are:
  - ```freeRTOS_02_Queue```: Queue management with freeRTOS and sAPI. 
  - ```freeOSEK_01_blinky```: Blinky led with freeOSEK RTOS.
  - freeRTOS_book: Richard Barry's book examples with FreeRTOS and sAPI:
-     - ```EXAMPLE001```: Creating tasks
-     - ```EXAMPLE002```: Using the task parameter
-     - ```EXAMPLE003```: Experimenting with priorities
-     - ```EXAMPLE004```: Using the Blocked state to create delay
-     - ```EXAMPLE005```: Converting the example tasks to use vTaskDelayUntil()
-     - ```EXAMPLE006```: Combining blocking and non-blocking tasks
-     - ```EXAMPLE007```: Defining an idle task hook function
-     - ```EXAMPLE008```: Changing task priorities
-     - ```EXAMPLE009```: Deleting tasks
-     - ```EXAMPLE010```: Blocking when receiving from a queue
-     - ```EXAMPLE011```: Blocking when sending to a queue or sending structures on a queue
-     - ```EXAMPLE012```: Using a queue set
-     - ```EXAMPLE013```: Creating one-shot and auto-reload timers
-     - ```EXAMPLE014```: Using the callback function parameter and the software timer ID
-     - ```EXAMPLE015```: Resetting a software timer
-     - ```EXAMPLE016```: Using a binary semaphore to synchronize a task with an interrupt
-     - ```EXAMPLE017```: Using a counting semaphore to synchronize a task with an interrupt
-     - ```EXAMPLE018```: Centralized deferred interrupt processing
-     - ```EXAMPLE019```: Sending and receiving on a queue from within an interrupt
-     - ```EXAMPLE020```: Re-writing vPrintString() to use a semaphore
-     - ```EXAMPLE021```: Re-writing vPrintString() to use a gatekeeper task
-     - ```EXAMPLE022```: Experimenting with event groups
-     - ```EXAMPLE023```: Synchronizing tasks
-     - ```EXAMPLE024```: Using a task notification in place of a semaphore, method 1
-     - ```EXAMPLE025```: Using a task notification in place of a semaphore, method 2
+     - ```example_01```: Creating tasks
+     - ```example_02```: Using the task parameter
+     - ```example_03```: Experimenting with priorities
+     - ```example_04```: Using the Blocked state to create delay
+     - ```example_05```: Converting the example tasks to use vTaskDelayUntil()
+     - ```example_06```: Combining blocking and non-blocking tasks
+     - ```example_07```: Defining an idle task hook function
+     - ```example_08```: Changing task priorities
+     - ```example_09```: Deleting tasks
+     - ```example_10```: Blocking when receiving from a queue
+     - ```example_11```: Blocking when sending to a queue or sending structures on a queue
+     - ```example_12```: Using a queue set
+     - ```example_13```: Creating one-shot and auto-reload timers
+     - Dosen't exist: ```example_14```: Using the callback function parameter and the software timer ID
+     - ```example_15```: Resetting a software timer
+     - ```example_16```: Using a binary semaphore to synchronize a task with an interrupt
+     - ```example_17```: Using a counting semaphore to synchronize a task with an interrupt
+     - Dosen't exist: ```example_18```: Centralized deferred interrupt processing
+     - ```example_19```: Sending and receiving on a queue from within an interrupt
+     - ```example_20```: Re-writing vPrintString() to use a semaphore
+     - ```example_21```: Re-writing vPrintString() to use a gatekeeper task
+     - ```example_22```: Experimenting with event groups
+     - The following dosen't exist:
+         - ```example_23```: Synchronizing tasks
+         - ```example_24```: Using a task notification in place of a semaphore, method 1
+         - ```example_25```: Using a task notification in place of a semaphore, method 2
  - LPC4337 LPC Open:
      - ```blinky_osek```
      - ```multicore```
