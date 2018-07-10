@@ -37,7 +37,6 @@
 
 /*==================[inclusions]=============================================*/
 
-//#include "uart_receive_string_blocking.h"   // <= own header (optional)
 #include "sapi.h"     // <= sAPI header
 
 /*==================[macros and definitions]=================================*/

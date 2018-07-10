@@ -36,9 +36,6 @@ POSSIBILITY OF SUCH DAMAGE.
 
 #include "sapi.h"        // <= Biblioteca sAPI
 
-//#include "c_i18n_es.h" // <= para traducir el codigo C al espaï¿½ol (opcional)
-//#include "c_i18n_es.h" // <= para traducir la sAPI al espaï¿½ol (opcional)
-
 /*==================[definiciones y macros]==================================*/
 
 //#define UART_SELECTED   UART_GPIO

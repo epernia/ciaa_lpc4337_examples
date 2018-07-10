@@ -6,7 +6,6 @@
 
 /*==================[inlcusiones]============================================*/
 
-//#include "cooperative_os_scheduler_03_seos_Pont2014.h"   // <= own header (optional)
 #include "sapi.h"        // <= sAPI header
 
 #include "seos_pont_2014_isr.h"       // <= dispatcher and task management header

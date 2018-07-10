@@ -46,7 +46,6 @@
 
 /*==================[inclusions]=============================================*/
 
-//#include "seos_bakground_foreground_app.h"   // <= own header (optional)
 #include "sapi.h"        // <= sAPI header
 
 #include "tasks.h"                     // <= tasks header

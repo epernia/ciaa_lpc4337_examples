@@ -63,7 +63,6 @@ ESP01 (ESP8266) connections:
 
 /*==================[inclusions]=============================================*/
 
-//#include "uartBridge_ESP8266.h"   // <= own header (optional)
 #include "sapi.h"     // <= sAPI header
 
 /*==================[macros and definitions]=================================*/
