@@ -25,7 +25,7 @@ Included examples are:
  - **asm_sapi**: assembler with sAPI library
  
 ### C language
- - sapi
+ - sAPI library
     - bare_metal
         - **adc_dac_01**: ADC and DAC example.
         - bluetooth
@@ -74,7 +74,7 @@ Included examples are:
                 - **freeRTOS_01_blinky**
     - statecharts
         - **statechart_bare_metal**
- - lpc_open
+ - LPC Open library
     - bare_metal
         - **blinky**
         - **blinky_input**
