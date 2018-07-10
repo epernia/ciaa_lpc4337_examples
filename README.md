@@ -36,9 +36,12 @@ Included examples are:
             - ```gpio_02_blinky```: the simply led blinky with a blocking delay.
             - ```gpio_03_blinky_switch```: led blinky with a with a non-blocking delay, to allow you to respond to a switch at the same time.
             - ```gpio_04_led_sequences```: led sequences by using a non-blocking delay.
-        - i2c: Magnetometers. In Chinese GY-273 module you can have one of this magnetometers, that have the same pinout but different register map. To difference them see the chip, ignore the board serigraphy.
-            - ```i2c_01_hmc5883l```: HMC5883L magnetometer. 
-            - ```i2c_02_qmc5883l```: QMC5883L magnetometer.
+        - i2c: 
+            - magnetometers. In Chinese GY-273 module you can have one of this magnetometers, that have the same pinout but different register map. To difference them see the chip, ignore the board serigraphy.
+                - ```hmc5883l```: HMC5883L magnetometer. 
+                - ```qmc5883l```: QMC5883L magnetometer.
+            - IMUs
+                - ```mpu9250```: MPU9250 IMU 9DOF (Gyroscope, Accelerometer and Magnetometer) + Temperature.
         - ```keypad_7segment_01```: Drives a keypad and 7 segment display.
         - ```lcd_01```: Drives a LCD display.
         - pwm

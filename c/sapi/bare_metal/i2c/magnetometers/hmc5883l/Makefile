@@ -1,5 +1,5 @@
 # -------- Project Name ------------------------------------------------------
-PROJECT_NAME=i2c_02_qmc5883l
+PROJECT_NAME=hmc5883l
 
 # -------- Compile options ---------------------------------------------------
 VERBOSE=n
@@ -14,6 +14,6 @@ USE_SAPI=y
 
 # -------- Core makefile -----------------------------------------------------
 # You must define your core folder here (relative to this program folder)
-CORE_PATH = ../../../../../../ciaa_project/cores/lpc4337
+CORE_PATH = ../../../../../../../ciaa_project/cores/lpc4337
 
 include $(CORE_PATH)/core.mk
